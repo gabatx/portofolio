@@ -1,0 +1,108 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Javier Cuadros</title>
+    <link rel="stylesheet" href="lib/css/bootstrap.min.css">
+
+    <!-- Estilos generales -->
+    <link rel="stylesheet" type="text/css" href="lib/css/styles.css"/>
+    <link rel="stylesheet" type="text/css" href="lib/css/normalize.css">
+
+    <!-- Estilos de los recursos adicionales -->
+    <link rel="stylesheet" type='text/css' href="lib/css/font-awesome/css/all.min.css"/>
+</head>
+
+
+<body>
+
+<!-- HEADER: Navbar -->
+<header class="container longitud-cabecera">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-body">
+        <div class="content_logo_inicio">
+            <a href="index.html">
+                <img src="lib/img/infinity_icon.svg" alt="logo" class="logo">
+            </a>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class=" collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto ">
+                <li class="nav-item">
+                    <a class="nav-link mx-2 active" aria-current="page" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mx-2" href="pages/apps.html">Apps</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mx-2" href="pages/repos.html">Repos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mx-2" href="pages/sobre_mi.html">Sobre mi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mx-2" href="pages/contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+</header>
+<!-- FIN HEADER: Navbar -->
+<!-- El main solo mostrará una imagen y textos de presentación -->
+<main class="container presentacion elimina-padding content_general_centra">
+        <section class="row justify-content-center align-items-center min-vh-100 content_central">
+            <article class="col-md-6 col-lg-9 item flex-grow-1 column_content_central">
+                <img class="rounded-circle" src="lib/img/foto-curriculum.jpg" alt=""/>
+                <h3 class="nombre m0">Javier Cuadros</h3>
+                <p class="titulo">Desarrollador de apps a tiempo completo</p>
+                <p class="descripcion">En la actualidad realizando proyectos mayormente en Swift, Kotlin y Laravel</p>
+                <!-- SECCIÓN DE ICONOS -->
+                <section class="social">
+                    <div class="has-text-centered">
+                        <!-- ICONO -->
+                        <a class="boton largo blanco" href="https://www.apple.com/es/app-store/" target="_blank">
+                            <i class="fab fa-app-store" aria-hidden="true"></i>
+                            <span>App Store</span>
+                        </a>
+                        <!-- ICONO -->
+                        <a class="boton largo blanco" href="https://play.google.com/store?gl=ES" target="_blank">
+                            <i class="fab fa-google-play" aria-hidden="true"></i>
+                            <span>Google play</span>
+                        </a>
+                        <!-- ICONO -->
+                        <a class="boton largo blanco" href="https://github.com/gabatx" target="_blank">
+                            <i class="fab fa-github" aria-hidden="true"></i>
+                            <span>Code</span>
+                        </a>
+                        <!-- ICONO -->
+                        <a class="boton largo blanco" href="https://twitter.com/funCody_" target="_blank">
+                            <i class="fab fa-twitter" aria-hidden="true"></i>
+                            <span>Tweets</span>
+                        </a>
+                    </div>
+                </section>
+                <p class="descripcion-inicio">
+                    Si quieres que trabajemos juntos, aquí puedes
+                    <a href="pages/contacto.html">comunicarte conmigo</a>
+                </p>
+            </article>
+        </section>
+
+</main>
+
+<footer class="container">
+    <section class="copyright row">
+        <p id="copyright">&copy; Javier Cuadros
+            <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+        </p>
+    </section>
+</footer>
+
+<script type="text/javascript" src="lib/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
